@@ -7,7 +7,7 @@ $(window).scroll( function() {
 // This code runs when jQuery is ready
 $(function() {
     "use strict";
-    
+
     // Adjust .intro section height to same as window height
     var wH = $(window).height();
     $('#hero-carousel .item').css("height", wH);
@@ -46,23 +46,23 @@ $(function() {
 
     $('#portfolio,#blog,.cta-quote .quote').removeClass("hidden").viewportChecker({
         classToAdd: 'visible animated fadeIn',offset: 100
-    });     
+    });
 
     $('.timeline li:nth-child(1),.timeline li:nth-child(3)').removeClass("hidden").viewportChecker({
         classToAdd: 'visible animated fadeInLeft',offset: 100
-    }); 
+    });
 
     $('.timeline li:nth-child(2),.timeline li:nth-child(4)').removeClass("hidden").viewportChecker({
         classToAdd: 'visible animated fadeInRight',offset: 100
-    }); 
+    });
 
     $('.team-member.second').removeClass("hidden").viewportChecker({
         classToAdd: 'visible animated zoomIn delay-short',offset: 100
-    }); 
+    });
 
     $('.team-member.third').removeClass("hidden").viewportChecker({
         classToAdd: 'visible animated zoomIn delay-long',offset: 100
-    }); 
+    });
 
 });
 
@@ -70,7 +70,7 @@ $(function() {
     Contact Map
     ==============================================*/
     function loadGoogleMap() {
-    
+
         var mapPoint = {
                     'lat': 53.3776901,
                     'lng': -2.8649802,
@@ -84,12 +84,12 @@ $(function() {
                 };
 
         if($('#gmap').length){
-        
+
             var map;
             var mapstyles = [ { "stylers": [ { "saturation": -100 } ] } ];
-            
+
             var infoWindow = new google.maps.InfoWindow;
-            
+
             var pointLatLng = new google.maps.LatLng(mapPoint.lat, mapPoint.lng);
 
             var mapOptions = {
@@ -103,18 +103,18 @@ $(function() {
                 scrollwheel: false,
                 styles: mapstyles
             }
-            
+
             map = new google.maps.Map(document.getElementById("gmap"), mapOptions);
-            
+
             var marker = new google.maps.Marker({
-                position: pointLatLng, 
-                map: map, 
+                position: pointLatLng,
+                map: map,
                 title:mapPoint.linkText,
                 icon: mapPoint.icon
             });
-            
+
             var mapLink = 'https://www.google.com/maps/preview?ll='+mapPoint.lat+','+mapPoint.lng+'&z=14&q='+mapPoint.mapAddress;
-            
+
             var html = '<div class="infowin">'
                     + mapPoint.infoText
                     + '<a href="'+mapLink+'" target="_blank">'+mapPoint.linkText+'</a>'
@@ -128,7 +128,7 @@ $(function() {
             google.maps.event.addListener(marker, 'click', function() {
                 window.open(mapLink,'_blank');
             });
-            
+
         }
     }
 
@@ -136,7 +136,7 @@ $(window).on('load', function() {
 
     // Call function for Google Maps
 
-    loadGoogleMap();
+    // loadGoogleMap();
 
     // Initialise Isotope plugin for Portfolio Filtering (Needs to be inside window load function)
 
