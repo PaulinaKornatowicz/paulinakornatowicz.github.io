@@ -1050,12 +1050,17 @@ aside.clients .carousel-indicators .active {
 }
 #contact {
   background-color: #222;
-  background-image: url('../img/map-image.png');
+  background-image: url('../img/map-image.JPG');
   background-position: center;
   background-repeat: no-repeat;
 }
 #contact .section-heading {
   color: white;
+  margin-left: 250px;
+}
+#contact .section-subheading {
+  color: white;
+  margin-left: 450px;
 }
 #contact .form-group {
   margin-bottom: 25px;
