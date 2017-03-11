@@ -202,14 +202,14 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">My Work</h2>
-                    <h3 class="section-subheading text-muted">Description to be added soon.</h3>
+                    <h3 class="section-subheading text-muted">Personal projects connected with mobile development and IoT.</h3>
                 </div>
             </div><!-- /.row -->
 
             <div class="row">
                 <div class="isotope">
                 <div class="col-md-4 col-sm-6 portfolio-item graphic">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModalMachineVision" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-expand fa-3x"></i>
@@ -223,7 +223,7 @@
                     </div>
                 </div><!-- /.portfolio-item -->
                 <div class="col-md-4 col-sm-6 portfolio-item web">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModalGearFitAlarm" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-expand fa-3x"></i>
@@ -233,63 +233,6 @@
                     </a>
                     <div class="portfolio-caption">
                         <h4>GearFit Alarm</h4>
-                        <p class="text-muted">Mobile Development</p>
-                    </div>
-                </div><!-- /.portfolio-item -->
-                <div class="col-md-4 col-sm-6 portfolio-item web">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-expand fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="assets/img/coming-soon.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                      <h4>Android app to be available on Play Store</h4>
-                      <p class="text-muted">Mobile Development</p>
-                    </div>
-                </div><!-- /.portfolio-item -->
-                <div class="col-md-4 col-sm-6 portfolio-item print">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-expand fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="assets/img/coming-soon.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                      <h4>Raspberry Pi 3 project</h4>
-                      <p class="text-muted">Mobile Development / Embedded Development</p>
-                    </div>
-                </div><!-- /.portfolio-item -->
-                <div class="col-md-4 col-sm-6 portfolio-item graphic">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-expand fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="assets/img/coming-soon.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                      <h4>Android app for personal use (IoT embedded project)</h4>
-                      <p class="text-muted">Mobile Development / Embedded Development</p>
-
-                    </div>
-                </div><!-- /.portfolio-item -->
-                <div class="col-md-4 col-sm-6 portfolio-item print">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-expand fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="assets/img/coming-soon.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Android app for personal use (master thesis further development)</h4>
                         <p class="text-muted">Mobile Development</p>
                     </div>
                 </div><!-- /.portfolio-item -->
@@ -540,7 +483,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Contact</h2>
-                    <h3 class="section-subheading text-muted">Feel free to contact me at <a href"mailto:paulina.kornatowicz@gmail.com">paulina.kornatowicz@gmail.com</a></h3>
+                    <h3 class="section-subheading text-muted">Feel free to contact me at <a href="mailto:paulina.kornatowicz@gmail.com">paulina.kornatowicz@gmail.com</a></h3>
                 </div>
             </div><!-- /.row -->
         </div><!-- /.container -->
@@ -558,6 +501,88 @@
             </div>
         </div>
     </footer>
+
+<!-- Portfolio Modals -->
+<!-- Portfolio Modal Machine Vision -->
+<div class="popup-modal modal fade" id="portfolioModalMachineVision" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Study of concurrent image processing algorithms for a machine vision system</h2>
+                            <p class="item-intro text-muted">Master Thesis project developed during studies at Wrocław University of Technology (Advanced Applied Electronics).</p>
+                            <!-- <img class="img-responsive" src="assets/img/portfolio-embedded.JPG" alt=""> -->
+                            <p>
+                              The aim of the master thesis was to design and configure a multichannel machine vision system with the use of SoC (system-on-chip) device, implement the algorithms for detection of multiple objects on FPGA and perform the efficiency evaluation od the created system.
+                            </p>
+                            <p>
+                              This was accomplished by using DE1-SoC Evaluation Board running Linaro Linux to acquire and analyze data from USB cameras connected to the board.
+                              The objects were detected by color and processed data was displayed on VGA screen. A web control panel was created for configuring the system.
+                            </p>
+                            <p>
+                              The machine vision project created on DE1-SoC is a simple one and is still in development phase. It will be used as a base for more complicated designs for further analysis of image processing mechanisms using SoC technology.
+                            </p>
+                            <ul class="list-inline">
+                                <li>Project duration: December 2015 - present</li>
+                                <li>Category: Embedded Development, FPGA</li>
+                                <li>Code: to be published on GitHub</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div><!-- /.modal-body -->
+                    </div><!-- /.col-gl-8 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.popup-modal -->
+    <!-- Portfolio Modal Gear Fit Alarm -->
+    <div class="popup-modal modal fade" id="portfolioModalGearFitAlarm" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Gear Fit Alarm</h2>
+                                <p class="item-intro text-muted">Android application created for personal use</p>
+                                <!-- <img class="img-responsive" src="assets/img/portfolio-embedded.JPG" alt=""> -->
+                                <p>
+                                  An Android app that enables the user to set an alarm using <strong> Samsung Gear Fit smartwatch </strong>
+                                </p>
+                                <p>
+                                  The app uses Samsung SDK for Gear Fit to communicate with the watch.
+                                  The user can set or cancel an already set alarm.
+                                  The alarm itself is also handled by the app, a proper dialog is displayed on the watch enabling the user to snooze or disable an alarm.
+                                  In case of Gear Fit not being paired at the time of alarm it can be dismissed automatically or handled by the user on the phone.
+                                </p>
+                                <p>
+                                  The app is intented to be published on Google Play soon.
+                                </p>
+                                <ul class="list-inline">
+                                    <li>Project duration: February 2016 - present</li>
+                                    <li>Category: Mobile Development</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div><!-- /.modal-body -->
+                        </div><!-- /.col-gl-8 -->
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </div><!-- /.modal-content -->
+        </div><!-- /.popup-modal -->
+
 
     <!-- jQuery Version 3.1.0 -->
     <script src="assets/js/plugins/jquery-3.1.0.min.js"></script>
