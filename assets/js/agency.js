@@ -48,11 +48,11 @@ $(function() {
         classToAdd: 'visible animated fadeIn',offset: 100
     });
 
-    $('.timeline li:nth-child(1),.timeline li:nth-child(3)').removeClass("hidden").viewportChecker({
+    $('.timeline li:nth-child(1),.timeline li:nth-child(3),.timeline li:nth-child(5),.timeline li:nth-child(7)').removeClass("hidden").viewportChecker({
         classToAdd: 'visible animated fadeInLeft',offset: 100
     });
 
-    $('.timeline li:nth-child(2),.timeline li:nth-child(4)').removeClass("hidden").viewportChecker({
+    $('.timeline li:nth-child(2),.timeline li:nth-child(4),.timeline li:nth-child(6),.timeline li:nth-child(8)').removeClass("hidden").viewportChecker({
         classToAdd: 'visible animated fadeInRight',offset: 100
     });
 
