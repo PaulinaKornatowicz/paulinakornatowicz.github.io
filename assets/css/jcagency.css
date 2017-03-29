@@ -1049,8 +1049,8 @@ aside.clients .carousel-indicators .active {
   height: 10px;
 }
 #contact {
-  background-color: #FFF;
-  background-image: url('../img/contact2.jpeg');
+  background-color: #222;
+  background-image: url('../img/contact3.jpg');
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -1060,7 +1060,7 @@ aside.clients .carousel-indicators .active {
 }
 #contact .section-subheading {
   color: white;
-  margin-left: 450px;
+  margin-left: 250px;
 }
 #contact .form-group {
   margin-bottom: 25px;
@@ -1239,6 +1239,7 @@ ul.social-buttons li a:active {
 .popup-modal .modal-content .list-inline {
   margin-bottom: 30px;
   margin-top: 0;
+  margin-left: 100px;
 }
 .popup-modal .modal-content img {
   margin-bottom: 30px;
@@ -2713,7 +2714,7 @@ body.metallic-red .navbar-inverse .navbar-nav > .active > a {
 }
 body.metallic-orange .text-primary,
 body.metallic-orange ul.social-buttons li a,
-body.metallic-orange a,
+body.metallic-orange a:link,
 body.metallic-orange .navbar-inverse .nav li a:hover,
 body.metallic-orange .navbar-inverse .nav li a:focus,
 body.metallic-orange .navbar-default .nav li a:hover,
@@ -3346,7 +3347,7 @@ body.metallic-gray .navbar-inverse .navbar-nav > .active > a {
     padding: 300px 0;
   }
   aside.cta-quote span.quote {
-    font-size: 40px;
+    font-size: 28px;
     line-height: 42px;
   }
   .pricing {
