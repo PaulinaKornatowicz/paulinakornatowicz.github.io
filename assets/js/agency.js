@@ -48,7 +48,7 @@ $(function() {
         classToAdd: 'visible animated fadeIn',offset: 100
     });
 
-    $('.timeline li:nth-child(1),.timeline li:nth-child(3),.timeline li:nth-child(5),.timeline li:nth-child(7)').removeClass("hidden").viewportChecker({
+    $('.timeline li:nth-child(1),.timeline li:nth-child(3),.timeline li:nth-child(5),.timeline li:nth-child(7) li:nth-child(9)').removeClass("hidden").viewportChecker({
         classToAdd: 'visible animated fadeInLeft',offset: 100
     });
 
