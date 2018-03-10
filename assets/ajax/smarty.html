@@ -8,21 +8,17 @@
 		<div class="col-sm-8">
 			<h4>Smart Home app</h4>
 			<p>
-				An Android app for controlling lights in apartment and in the future providing information about temperature both inside and outside the house.
+				An Android app for setting alarms to control lights (LEDs as well as all Philips Hue leds in the apartment) and temperature and in the future providing more automation.
 			</p>
 			<p>
-				The app uses Particle SDK to connect to a Particle Photon device that controls the leds.
-				The hardware for control of the leds was designed using Eagle software.
-				The user can turn the leds on and off using a button.
+				The app connects with Raspberry Pi acting as REST API to send information when to change temperature and set lights.
+				The hardware for control of the leds was designed using Eagle software and is controlled by STM Nucleo microcontroller.
 			</p>
 			<p>
 				Further development:
 			</p>
 			<p>
-				- switch to RGB leds and let the user choose the color of the leds along with color transitions
-			</p>
-			<p>
-				- provide information about temperature using simple temperature sensors. Data should be collected using BLE (BLE connection in the app already tested, design of electronics in progress).
+				- apart from setting alarms, user should be able to turn all light on and off and set tempertaure for each room separately
 			</p>
 			<ul class="portfolio-single-list">
 				<li>
