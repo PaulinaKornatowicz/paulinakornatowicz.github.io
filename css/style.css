@@ -852,7 +852,7 @@ ol {
 
 .home-three-style .hero-text h2,
 .home-four-style .hero-text h2 {
-	font-size: 72px;
+	font-size: 68px;
 	margin-bottom: 40px;
 }
 
@@ -1201,6 +1201,17 @@ ol {
 }
 
 
+.logos {
+	width: 120px;
+	height: 120px;
+	padding: 10px;
+}
+
+.hobby-icon {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
 /* ===========================
   Responsive
 ==============================*/
@@ -1339,7 +1350,7 @@ ol {
 		text-align: left;
 	}
 	.hero-text h2 {
-		font-size: 80px;
+		font-size: 60px;
 	}
 	.portfolio-warp {
 		padding: 0;
@@ -1405,7 +1416,7 @@ ol {
 /* small Mobile :320px. */
 @media only screen and (max-width: 479px) {
 	.hero-text h2 {
-		font-size: 50px;
+		font-size: 40px;
 	}
 	.hero-info ul li {
 		font-size: 18px;
